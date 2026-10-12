@@ -5,7 +5,6 @@ main = do
     print(even2 5)
     print(odd2 5)
 
-
 odd2 0 = False
 odd2 n = even2(n-1)
 

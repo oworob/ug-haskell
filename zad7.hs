@@ -2,9 +2,9 @@
 -- fac n = fac_help n 1
 --   where fac_help 0 acc = acc
 --     fac_help n acc = silnia_help (n - 1) (n * acc)
---Here the variable acc of function fac_help is called an accumulator.
+-- Here the variable acc of function fac_help is called an accumulator.
 
---Please define a function fib n, whose value is the n-th element of the Fibonacci sequence (give two versions of fib: one recursive and one using accumulators).
+-- Please define a function fib n, whose value is the n-th element of the Fibonacci sequence (give two versions of fib: one recursive and one using accumulators).
 
 main = do
     print(fib(10)) -- 55
